@@ -10,9 +10,9 @@ function Gallery() {
   }, []);
 
   const fetchImages = () => {
-    const endpointfmt = `https://raw.githubusercontent.com/Mayumi767/junk/main/data.json`;
+   const endpoint = 'https://raw.githubusercontent.com/Mayumi767/junk/main/colibook.json';
 
-    fetch(endpointfmt)
+    fetch(endpoint)
       .then(response => {
         if (response.ok) {
           return response.json();
