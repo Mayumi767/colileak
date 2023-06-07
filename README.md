@@ -8,6 +8,6 @@ So i create this project just for fun🤷🏼‍♂️
 
 
 tech stack:
-  vite js
-  react js
-  tailwind css
+-  vite js
+- react js
+- tailwind css
